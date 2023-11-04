@@ -1,5 +1,5 @@
 Pod::Spec.new do |s|
-  s.name             = 'mokoMvvmFlowSwiftUI'
+  s.name             = 'mokoMvvmFlowSwiftUIMacOs'
   s.version          = '0.16.1'
   s.summary          = 'MOKO MVVM SwiftUI additions for Flow'
   s.description      = 'some description here'
@@ -11,9 +11,9 @@ Pod::Spec.new do |s|
     :type => "zip"
   }
 
-  s.platform = :ios
-  s.ios.deployment_target = '13.0'
-  s.ios.vendored_framework = 'mokoMvvmFlowSwiftUI.xcframework'
+  s.platform = :osx
+  s.osx.deployment_target = '14.0'
+  s.osx.vendored_framework = 'mokoMvvmFlowSwiftUI.xcframework'
 
   s.requires_arc = true
 end
